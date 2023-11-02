@@ -1,0 +1,13 @@
+
+footer{
+    background-color: var(--justice-navy);
+}
+
+.awards{
+    height:4rem;
+}
+.awards>img{
+    object-fit: contain;
+    object-position: center;
+    height: 3rem;
+}

@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family:'Bangla MN';
+    src: url('../src/assets/fonts/Bangla_MN.ttf');
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../src/assets/fonts/SofiaProBlack.ttf');
+}
+:root{
+    --hamlindingo:#6376A3;
+    --walter-white:#fff;
+    --justice-navy:#6376A1;
+    --victory-gold:#E9A051;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    position: relative;
+}
