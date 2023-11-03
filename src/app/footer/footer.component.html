@@ -18,4 +18,42 @@
             <i class="bi bi-rss text-white"></i>
         </div>
     </div>
+    <div id="footerMain" class="text-white d-flex flex-md-row flex-sm-column gap-4 p-4">
+        <div>
+            <p class="footerHead">PRACTICES</p>
+            <div class="d-flex flex-row align-items-center justify-content-center gap-4">
+                <div class="">
+                    <div *ngFor="let link of Links;index as i;even as isEven;">
+                        <div *ngIf="isEven">{{link}}</div>
+                    </div>
+                </div>
+                <div class="">
+                    <div *ngFor="let link of Links;index as i;odd as isOdd;">
+                        <div *ngIf="isOdd">{{link}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="footerHead">ALBUQUERQUE OFFICE</p>
+            <address>
+                Hamlin Hamlin & McGill
+                <br>
+                100 Sun Ave NE
+                <br>
+                Albuquerque, NM 87109
+                <br>
+                Monday to Friday
+                <time>8AM - 7PM</time>
+            </address>
+        </div>
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.605063257397!2d-106.58922832489999!3d35.166469072757906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8722744c39911077%3A0x5fbe544a82110dad!2sPan%20American%20Building%2C%20100%20Sun%20Ave%20NE%2C%20Albuquerque%2C%20NM%2087109%2C%20USA!5e0!3m2!1sen!2sin!4v1699006817150!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Contact -->
+    <address>
+        @ namaste@hhm.law
+    </address>
 </footer>
