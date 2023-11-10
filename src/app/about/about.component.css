@@ -1,0 +1,18 @@
+.hh{
+    background: url('../../assets/images/stills/about-one.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px;
+}
+.hh:hover{
+    filter: grayscale(0.9);
+}
+.km{
+    background: url('../../assets/images/stills/about-two.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px;
+}
+.km:hover{
+    filter:grayscale(0.9);
+}

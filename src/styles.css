@@ -19,6 +19,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bg-hamlindingo{
+    background-color: var(--hamlindingo);
+}
+
+.bg-victory-gold{
+    background-color: var(--victory-gold) !important;
+}
+.font-sofia{
+    font-family: 'Sofia Pro',sans-serif;
+}
+
+.font-bangla{
+    font-family: 'Bangla MN',Arial, Helvetica, sans-serif;
+}
+
+.font-playfair{
+    font-family: 'Playfair Display';
+}
+
 html, body{
     height: 100%;
     width: 100%;
@@ -26,4 +45,11 @@ html, body{
 }
 body{
     position: relative;
+}
+.overlay{
+    background:linear-gradient(var(--hamlindingo),var(--justice-navy));
+    position: absolute;
+    z-index: -2;
+    height: 100vh;
+    width: 100vw;
 }

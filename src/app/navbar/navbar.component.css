@@ -2,3 +2,20 @@
 .brand{
     font-family: 'Bangla MN';
 }
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
+
+@media screen and (max-width:620px){
+    #navbarNav{
+        background-color: black !important;
+        z-index: 999;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+}

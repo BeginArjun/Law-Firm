@@ -1,0 +1,30 @@
+#practices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    height: 100vh;
+    position: relative;
+}
+
+.bg-image{
+    z-index: -2;
+    width: 100vw;
+    left: 0;
+    height: 100vh;
+    position: absolute;
+    filter: opacity(0.2);
+    background: url('../../assets/images/stills/kim.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    cursor:pointer;
+}
+li:hover{
+    background-color: var(--victory-gold) !important;
+}
