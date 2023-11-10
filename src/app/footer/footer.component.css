@@ -11,3 +11,6 @@ footer{
     object-position: center;
     height: 3rem;
 }
+.text-victory{
+    color:var(--victory-gold);
+}

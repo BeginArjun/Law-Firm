@@ -1,0 +1,17 @@
+<section id="practices">
+    <div class="overlay"></div>
+    <div class="bg-image"></div>
+    <div class="container-fluid">
+        <h1 class="text-white position-absolute top-0 font-bangla">Practices</h1>
+        <div class="row">
+            <ul *ngFor="let product of PRODUCTS" class="col-md-4 col-sm-12">
+                <li class="bg-danger text-white position-relative p-3 ">
+                    <div>{{product.title}}</div>
+                    <div class="position-absolute top-0 end-0 p-3">
+                    <i class={{product.icon}}></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
